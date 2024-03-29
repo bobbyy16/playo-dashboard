@@ -45,7 +45,7 @@ export default function Table() {
               <td className="border-gray-300 px-2 py-2 text-center text-black-500">
                 {customerData.trackingId}
               </td>
-              <td className="border-gray-300 px-2 py-2 flex items-center justify-center text-black">
+              <td className="border-gray-300 px-2 py-2 flex items-center justify-start text-black">
                 {customerData.img && (
                   <img
                     src={customerData.img}
