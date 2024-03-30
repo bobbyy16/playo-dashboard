@@ -7,10 +7,16 @@ export default function TableFoot() {
       <button className="px-3 py-1 bg-green-500 text-white font-semibold rounded mr-2">
         1
       </button>
-      <button className="px-3 py-1 border text-black font-semibold rounded mr-2">
+      <button
+        className="px-3 py-1 border text-green-500 font-semibold rounded mr-2"
+        style={{ borderColor: "green" }}
+      >
         2
       </button>
-      <button className="px-3 py-1 border text-black font-semibold rounded mr-2">
+      <button
+        className="px-3 py-1 border text-green-500 font-semibold rounded mr-2"
+        style={{ borderColor: "green" }}
+      >
         3
       </button>
       <span className="px-2 py-1 text-gray-400 cursor-pointer">next</span>
